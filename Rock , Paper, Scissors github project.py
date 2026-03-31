@@ -1,6 +1,6 @@
 import random
 
-options = ["rock","paper","scissors"]  # using tupple () is better here but i want to practice with lists
+options = ["rock","paper","scissors"] 
 playing = True
 
 while playing:
