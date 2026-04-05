@@ -24,9 +24,24 @@ while playing:
         print("This seems sus but aparently you win anyways!")
     else:
         print("You Lose")
-    
-    if not input("Play again? (y/n): ").lower() == "y":
-        playing = False
+   # changed these lines with help from partner 
+   # if not input("Play again? (y/n): ").lower() == "y":
+    #    playing = False
+#print()
+#print("Thanks for playing!")
+#changed above lines with help from partner
+
+#updated lines below
+while True:
+        again = input("Play again? (y/n): ").lower()
+        if again == "y":
+            break
+        elif again == "n":
+            playing = False
+            break
+        else:
+            print("Invalid input! Please enter 'y' or 'n'.")
+            
 print()
 print("Thanks for playing!")
    
